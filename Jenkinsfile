@@ -6,7 +6,7 @@ stage('Terraform init') {
 steps {
 script {
 //sh cd /Users/rdevegow/Documents/raghu/gke
-sh terraform init
+sh /usr/local/bin/terraform init -input=false
 }
 }
 }
