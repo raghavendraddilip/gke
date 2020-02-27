@@ -18,4 +18,3 @@ terraform apply -input=false "gke"
 }
 }
 }
-}
