@@ -5,7 +5,7 @@ stages {
 stage('GKE Cluster Plan') {
 steps {
 script {
-cd /Users/rdevegow/Documents/raghu/gke
+/bin/bash cd /Users/rdevegow/Documents/raghu/gke
 terraform plan
 }
 }
