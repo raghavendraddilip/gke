@@ -14,7 +14,6 @@ sh '/usr/local/bin/terraform init -input=false'
 stage('GKE Cluster Plan') {
 steps {
 script {
-//sh cd /Users/rdevegow/Documents/raghu/gke
 sh 'terraform plan -out=gke -input=false'
 }
 }
